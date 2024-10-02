@@ -16,19 +16,19 @@ export class ProdutosComponent {
   produtos: Produto[] = [
     {
       nome: 'Produto 1',
-      preco: 100,
+      preco: 200,
       descricao: 'Descrição do produto 1',
       emEstoque: true,
     },
     {
       nome: 'Produto 2',
-      preco: 150,
+      preco: 120,
       descricao: 'Descrição do produto 2',
       emEstoque: false,
     },
     {
       nome: 'Produto 3',
-      preco: 200,
+      preco: 140,
       descricao: 'Descrição do produto 3',
       emEstoque: true,
     },
