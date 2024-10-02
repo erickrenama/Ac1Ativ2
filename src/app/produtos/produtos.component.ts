@@ -15,21 +15,21 @@ interface Produto {
 export class ProdutosComponent {
   produtos: Produto[] = [
     {
-      nome: 'Produto 1',
+      nome: 'Bota',
       preco: 200,
-      descricao: 'Descrição do produto 1',
+      descricao: 'Nº34 ao 44',
       emEstoque: true,
     },
     {
-      nome: 'Produto 2',
+      nome: 'Tenis',
       preco: 120,
-      descricao: 'Descrição do produto 2',
+      descricao: 'Nº35 ao 44',
       emEstoque: false,
     },
     {
-      nome: 'Produto 3',
+      nome: 'Chinelo',
       preco: 140,
-      descricao: 'Descrição do produto 3',
+      descricao: 'Nº33 ao 42',
       emEstoque: true,
     },
   ];
